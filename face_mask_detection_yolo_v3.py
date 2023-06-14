@@ -137,10 +137,7 @@ print("Done")
 # %cd /content
 # clone darknet repo|
 
-!git clone https://github.com/AlexeyAB/darknet
 from darknet import *
-
-
 
 # Commented out IPython magic to ensure Python compatibility.
 # change makefile to have GPU and OPENCV enabled
